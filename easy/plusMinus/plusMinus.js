@@ -1,31 +1,30 @@
 
-function plusMinus (arr) {
-  let ratios = []
+function plusMinus(arr) {
   let total = 0
   let positive = 0
   let zero = 0
   let negative = 0
   arr.map(el => {
-  let sign = Math.sign(el)
-  
-  switch(sign) {
-    case -1:
-      negative++
-      total++
-      break;
-    case 1:
-      positive++
-      total++
-      break;
-    case 0:
-      zero++
-      total++
-      break;
-  }
+    let sign = Math.sign(el)
+
+    switch (sign) {
+      case -1:
+        negative++
+        total++
+        break;
+      case 1:
+        positive++
+        total++
+        break;
+      case 0:
+        zero++
+        total++
+        break;
+    }
   })
 
-  function divideNum (num) {
-    let decimal = +num/total
+  function divideNum(num) {
+    let decimal = +num / total
     let decimals = parseFloat(decimal).toFixed(6)
     return decimals
   }
@@ -34,10 +33,8 @@ function plusMinus (arr) {
   console.log(divideNum(negative));
   console.log(divideNum(zero));
 
-
-  // return result
 }
 
 let numArray = [-4, 3, -9, 0, 4, 1]
 
-console.log('result', plusMinus(numArray))
+plusMinus(numArray)
