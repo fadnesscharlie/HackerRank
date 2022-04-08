@@ -10,8 +10,7 @@ function miniMaxSum(arr) {
     if(result > max) max = result
   })
 
-  console.log(min);
-  console.log(max);
+  console.log(min, max);
 }
 
 
