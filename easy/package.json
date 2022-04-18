@@ -1,0 +1,22 @@
+{
+  "name": "easy",
+  "version": "1.0.0",
+  "description": "HackerRank's Easy Questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'",
+    "watch": "jest --verbose --coverage --watchAll"
+  },
+  "keywords": [
+    "hackerrank",
+    "easy",
+    "code",
+    "challene"
+  ],
+  "author": "Charlie Fadness",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
