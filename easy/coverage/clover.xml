@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1650310374648" clover="3.2.0">
-  <project timestamp="1650310374648" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2" elements="14" coveredelements="14" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
-    <file name="lonelyInteger.js" path="/home/fadnesscharlie/coding/codeChallenge/hackerRank/easy/lonelyInteger/lonelyInteger.js">
+<coverage generated="1658375607464" clover="3.2.0">
+  <project timestamp="1658375607464" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="26" coveredelements="26" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2"/>
+    <package name="lonelyInteger">
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="5" count="3" type="stmt"/>
-      <line num="6" count="31" type="stmt"/>
-      <line num="8" count="31" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="18" type="stmt"/>
-      <line num="11" count="13" type="stmt"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-    </file>
+      <file name="lonelyInteger.js" path="/home/fadnesscharlie/coding/codeChallenge/hackerRank/easy/lonelyInteger/lonelyInteger.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="31" type="stmt"/>
+        <line num="8" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="18" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ransomNote">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="ransomNote.js" path="/home/fadnesscharlie/coding/codeChallenge/hackerRank/easy/ransomNote/ransomNote.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
