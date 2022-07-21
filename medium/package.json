@@ -1,0 +1,25 @@
+{
+  "name": "medium",
+  "version": "1.0.0",
+  "description": "Code Challenge Medium Questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'",
+    "watch": "jest --verbose --coverage --watchAll"
+  },
+  "keywords": [
+    "hackerrank",
+    "leetcode",
+    "easy",
+    "medium",
+    "hard",
+    "code",
+    "challenge"
+  ],
+  "author": "Charlie Fadness",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
