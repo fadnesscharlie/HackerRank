@@ -4,9 +4,12 @@ let canConstruct = function (ransomNote, magazine) {
 		let isInside = magArr.indexOf(i)
 		if(isInside === -1) return false
 		magArr[isInside] = 0
-    console.log('magArr', magArr);
+    // console.log('magArr', magArr);
 }
 	return true
 }
 
-console.log('Result ', canConstruct('googls', 'google'))
+
+console.log('Result ', canConstruct('google', 'googles'))
+
+module.exports = canConstruct;
